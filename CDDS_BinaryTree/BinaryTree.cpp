@@ -168,8 +168,10 @@ TreeNode* BinaryTree::find(int value)
 	TreeNode* current = m_root;
 	TreeNode* parentNode = current;
 
+	//Loop through the tree while the iterator isn't nullptr.
 	while (current != nullptr)
 	{
+		//Check if the node has the data we want
 		if (value < current->getData())
 		{
 			current = current->getLeft();
@@ -183,10 +185,11 @@ TreeNode* BinaryTree::find(int value)
 			return current;
 		}
 	}
+	//Return nullptr
 	return nullptr;
 
-	//Loop through the tree while the iterator isn't nullptr.
-		//Check if the node has the data we want
+
+
 			//Return the iterator
 		//If the node doesn't have the data we want, check to see if it's higher in value.
 			//Set the iterator to be its current right child.
@@ -194,7 +197,7 @@ TreeNode* BinaryTree::find(int value)
 			//Set the iterator to be its current left child.
 	//end loop
 
-	//Return nullptr
+
 }
 
 void BinaryTree::draw(TreeNode* selected)
