@@ -5,7 +5,7 @@ Binary Tree
 
 Description:
 
-- This program will show and demostrate how binary trees work. Using the bars to insert or remove nodes within the program. 
+- This program will show and demonstrate how binary trees work. Using the bars to insert or remove nodes within the program. 
 
 
 Controls:
