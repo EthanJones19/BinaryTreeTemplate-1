@@ -23,3 +23,5 @@ Controls:
   - Insert bar is to insert a node circle with the number you type in.
   
   - Remove bar is to remove the node circle with corresponding number that's been typed in.
+ 
+- Esc is to end the game
