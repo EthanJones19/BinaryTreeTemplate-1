@@ -4,6 +4,7 @@
 
 BinaryTree::~BinaryTree()
 {
+	return;
 }
 
 
@@ -66,8 +67,8 @@ void BinaryTree::remove(int value)
 {
 	//Create two TreeNode pointers: one to hold a reference to the node we want to remove
 	//and another to hold a reference to its parent.
-	TreeNode* current;
-	TreeNode* parent;
+	TreeNode* current = nullptr;
+	TreeNode* parent = nullptr;
 
 	TreeNode* minNode = nullptr;
 

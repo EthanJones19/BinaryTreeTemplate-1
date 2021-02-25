@@ -1,3 +1,3 @@
 ﻿  BinaryTree.cpp
-C:\Users\s208062\source\repos\BinaryTreeTemplate-1\CDDS_BinaryTree\BinaryTree.cpp(253,20): warning C4552: '/': result of expression not used
-  CDDS_BinaryTree.vcxproj -> C:\Users\s208062\source\repos\BinaryTreeTemplate-1\bin\x64\Debug\CDDS_BinaryTree.exe
+C:\Users\ethan\source\repos\BinaryTreeTemplate-1\CDDS_BinaryTree\BinaryTree.cpp(253,20): warning C4552: '/': result of expression not used
+  CDDS_BinaryTree.vcxproj -> C:\Users\ethan\Source\Repos\BinaryTreeTemplate-1\bin\x64\Debug\CDDS_BinaryTree.exe
